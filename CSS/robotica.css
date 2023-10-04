@@ -48,10 +48,9 @@
 
 @media (max-width: 768px) { 
 
-    html, body {
+    header, main, footer {
 
         width: 100vw;
-        height: 100vh;
     }
 
     article:nth-child(2) {
