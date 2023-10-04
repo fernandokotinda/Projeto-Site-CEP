@@ -776,12 +776,6 @@ footer a:hover {
         padding-top: 0px;
         padding-bottom: 0px;
         
-    
-        
-    }
-    .int-1 .rafael  {
-
-        margin-bottom: 25px;
     }
     .int-1 img, .int-2 img {
         
@@ -789,6 +783,7 @@ footer a:hover {
         height: 100%;
         border-radius: 10px;
         box-shadow: rgba(245, 245, 245, 0.289) 3px 2px 8px 0px;
+        margin-bottom: 25px;
     }
     .int-1 figure, .int-2 figure {
         
