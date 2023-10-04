@@ -464,6 +464,11 @@ footer a:hover {
         padding: 0%;
         box-sizing: border-box;
     }
+    html{
+
+        overflow-x: hidden
+    
+    }
     body {
     
         background-color: var(--fundo-form);
