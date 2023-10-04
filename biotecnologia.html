@@ -10,9 +10,6 @@
         window.onload = function() {
             window.location.href = '#cabeçalho'; 
         };
-        document.body.addEventListener('touchmove', function(e) {
-        e.preventDefault();
-        }, { passive: false });
     </script>
 </head>
 <body>
@@ -23,24 +20,27 @@
                 <a href="https://www.cep.pr.gov.br/" target="_blank"><img id="logo" src="Imagens/logonova.png" alt="Logo-CEP"></a>
             </div>
             <div class="menu">
-                    <div class="menu-mobile">
-                        <div class="navbar">
-                            <nav>
-                                <ul class="menu-list">
-                                    <li><a href="index.html">Início</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                <div class="menu-mobile">
+                    <div class="navbar">
+                        <nav>
+                            <ul class="menu-list">
+                                <li><a href="index.html">Início</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="bar">
-                        <a href="https://www.cep.pr.gov.br/" target="_blank"><img id="logo-pc" src="Imagens/logonova.png" alt="Logo-CEP"></a>
+                 </div>
+                <nav class="bar">
+                    <a href="https://www.cep.pr.gov.br/" target="_blank"><img id="logo-pc" src="Imagens/logonova.png" alt="Logo-CEP"></a>
+                    <div class="home">
+                        <h1>COLÉGIO ESTADUAL DO PARANÁ</h1>
                         <ul class="menu-list">
                             <li><a href="index.html">Início</a></li>
                         </ul>
-                    </nav>
-                    <input type="search" placeholder=" 🔍 O que você procura?">
-            </div>
+                    </div>
+                </nav>
+                <input type="search" id="searchInput" placeholder="O que você procura?                                    🔍">   
         </div>
+    </div>
     <script>
         function clickMenu() {
             

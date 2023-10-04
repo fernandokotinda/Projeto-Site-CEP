@@ -21,11 +21,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-html{
-
-    overflow-x: hidden
-
+    
 }
 body {
 
@@ -464,14 +460,10 @@ footer a:hover {
         padding: 0%;
         box-sizing: border-box;
     }
-    html{
-
-        overflow-x: hidden
-    
-    }
     body {
     
         background-color: var(--fundo-form);
+        overflow-x: hidden;
     }
     img {
     
