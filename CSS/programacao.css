@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
     
     .container-1 .texto h1::after {
 
@@ -40,7 +40,7 @@
 
 } 
 
-@media (max-width: 768px) { 
+@media (max-width: 1000px) { 
 
     .container-1 .texto h1::after {
 

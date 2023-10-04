@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Geologica&family=Tektur:wght@500&display=swap');
 
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Geologica&family=Tektur:wght@500&display=swap');
 
@@ -444,7 +444,7 @@ footer a:hover {
     display: none;
 }
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Geologica&family=Tektur:wght@500&display=swap');
 

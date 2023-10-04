@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media (min-width: 1001px) {
     .tags {
 
         background-color: #5c9797;
@@ -50,7 +50,7 @@
 
     }
 }
-@media (max-width: 768px) { 
+@media (max-width: 1000px) { 
 
     .tags {
 
