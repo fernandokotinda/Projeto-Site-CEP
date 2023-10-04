@@ -48,9 +48,9 @@
 
 @media (max-width: 768px) { 
 
-    header, main, footer {
+    html{
 
-        width: 100vw;
+        overflow-x: hidden
     }
 
     article:nth-child(2) {
