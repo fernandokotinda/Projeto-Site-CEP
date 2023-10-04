@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biotecnologia</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="Imagens/logonova.png" type="image/x-icon">
+    <script>
+        window.onload = function() {
+            window.location.href = '#cabeçalho'; 
+        };
+    </script>
+</head>
+<body>
+    <header id="cabeçalho">
+        <div class="inicio">
+            <div class="menu">
+                    <div class="menu-mobile">
+                        <div class="inicio-mobile">
+                            <img id="burger" src="Imagens/menu-aberto.png" alt="Menu" onclick="clickMenu()">
+                            <a href="https://www.cep.pr.gov.br/" target="_blank"><img id="logo" src="Imagens/logonova.png" alt="Logo-CEP"></a>
+                        </div>
+                        <div class="navbar">
+                            <nav>
+                                <ul class="menu-list">
+                                    <li><a href="index.html">Início</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <nav class="bar">
+                        <ul class="menu-list">
+                            <li><a href="index.html">Início</a></li>
+                        </ul>
+                    </nav>
+                    <input type="search" placeholder=" 🔍 O que você procura?">
+            </div>
+        </div>
+    <script>
+        function clickMenu() {
+            
+            let navbar = document.querySelector('.navbar')
+            
+            if(navbar.style.display == 'block') {
+                
+                navbar.style.display = 'none'
+                
+            } else {
+                
+                navbar.style.display = 'block'
+            }
+    
+        }
+
+        
+       
+    </script>
+ 
+<footer>
+    <p>Trabalho desenvolvido na disciplina de programação</p> 
+    <p class="cep"><img src="Imagens/logonova.png" alt="Logo-CEP"> <a href="https://www.cep.pr.gov.br/">Colégio Estadual do Paraná</a></p>
+</footer>

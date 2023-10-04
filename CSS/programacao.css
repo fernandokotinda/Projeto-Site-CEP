@@ -1,0 +1,37 @@
+.container-1 .texto h1::after {
+
+    content: "";
+    display: inline-block;
+    width: 45px; 
+    height: 42px; 
+    background-image: url('../Imagens/programacao.png'); 
+    background-size: cover; 
+    margin-left: 10px;
+}
+.container-1 img {
+
+    box-shadow: none;
+}
+.materiais img {
+
+    box-shadow: none;
+    width: 25%;
+    margin-left: 30px;
+}
+.materiais .texto {
+
+    word-spacing: normal;
+    width: 540px;
+    height: 114px;
+    margin-left: 44px;
+    margin-right: 120px;
+}
+.materiais .image {
+
+    width: 20%;
+
+}
+.materiais .texto h1 {
+
+    height: 39px;
+}

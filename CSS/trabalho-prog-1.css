@@ -1,0 +1,50 @@
+.tags {
+
+    background-color: #5c9797;
+    font-family: 'Geologica', sans-serif;
+    display: block;
+    
+}
+.tags h1 {
+
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.tags ul {
+
+    padding: 0px 80px;
+}
+.tags li {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px
+}
+.tags li p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 3em;
+    padding-left: 30px;
+    color: #3b3b3b;
+}
+
+.imagem{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tags hr {
+
+    border-color: rgba(0, 0, 0, 0.403);
+}
+.imagem img {
+
+    width: 700px;
+    height: 400px;
+    margin: 0px 40px 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.559) 13px 8px 8px;
+    border-radius: 15px;
+
+}

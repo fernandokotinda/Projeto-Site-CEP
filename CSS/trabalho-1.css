@@ -1,0 +1,46 @@
+article:nth-child(1) {
+
+    background-color: var(--fundo-article);
+    margin-top: 142px;
+
+}
+article {
+
+    margin: 0%;
+}
+
+article img {
+
+    margin: 50px;
+    margin-left: 0px;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.57) 0.3em 0.3em 0.3em;
+}
+article .texto {
+
+    margin-left: 60px;
+}
+article .texto p {
+
+    margin-right: 80px;
+    padding-top: 20px;
+}
+article .texto h1::after {
+
+    background-image: none;
+}
+.materiais {
+
+    background-color: #92c7c7;
+}
+.materiais .texto {
+
+    padding-left: 50px;
+}
+.materiais .image {
+
+    box-shadow: none;
+    width: 30%;
+}
