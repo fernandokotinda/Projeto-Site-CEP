@@ -45,13 +45,18 @@ header {
     
     
 }
-.inicio img {
+#logo {
+
+    display: none;
+}
+#logo-pc {
 
     height: 100px;
     width: 100px;
     margin: 20px;
     
 }
+
 .menu {
 
     display: flex;
@@ -429,19 +434,18 @@ footer a:hover {
     display: none;
 }
 }
-
 @media (max-width: 768px) {
 
     @import url('https://fonts.googleapis.com/css2?family=Geologica&family=Tektur:wght@500&display=swap');
 
     :root {
     
-        --fundo-article: #4984b7;
-        --fundo-header: #30527d;
-        --fundo-slides: #8baac9;
-        --fundo-integrantes: #0F1627;
-        --fundo-form: #b1d2f7;
-        --fundo-footer: #212736;
+        --fundo-article: #76bfbf;
+        --fundo-header: #2f4f4f;
+        --fundo-slides: #599393;
+        --fundo-integrantes: #2b4a4a;
+        --fundo-form: #56b1b1;
+        --fundo-footer: rgb(35, 53, 53);
         
     }
     * {
@@ -476,6 +480,16 @@ footer a:hover {
         
         
     }
+    .home h1 {
+
+        font-size: 18px;
+        padding: 10px;
+    }
+    .home h1{
+
+        text-shadow: 5px 4px 4px rgba(55, 55, 55, 0.688);
+    
+    }
     .menu-mobile {
 
         display: flex;
@@ -485,19 +499,27 @@ footer a:hover {
         
         
     }
+    #logo-pc {
 
+        display: none;
+    }
+    #logo{ 
+
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+        
+    }
     .inicio-mobile {
 
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
-        
+          
     }
-    .inicio-mobile #logo {
 
-        transform: translate(140px);
-    }
+
+
     .titulo h1::after {
         content: "";
         display: inline-block;
@@ -543,11 +565,15 @@ footer a:hover {
         color: #1e1e1ee2;
         padding: 7px 8px;
         border-radius: 5px;
+        text-shadow: rgba(112, 112, 112, 0.595) 1px 0px 10px;
+        transition: transform 0.3s ease-in-out;
         
     }
     .menu-list a:hover {
     
         background-color: rgba(0, 0, 0, 0.048);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.495);
+        transform: scale(1.05);
     }
     .navbar {
 
@@ -557,7 +583,8 @@ footer a:hover {
         position: absolute;
         top: 85px;
         left: 0px;
-        padding: 10px;
+        padding: 20px;
+        background-color: #c1f9f9;
         border-radius: 5px;
         text-shadow: rgba(0, 0, 0, 0.595) 1px 0px 10px;
         
@@ -569,6 +596,8 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        background-color: #c1f9f9;;
+        
         
     }
     .navbar a:hover {
@@ -622,7 +651,10 @@ footer a:hover {
     .texto h1 {
     
         font-size: 30px;
-        
+        height: 50px;
+        width: 300px;
+
+
     }
     .texto p {
     
@@ -679,8 +711,9 @@ footer a:hover {
         
     }
     #slides img:hover {
-    
+
         border: 2px solid rgba(0, 0, 0, 0.6);
+        box-shadow: rgba(0, 0, 0, 0.57) 0.3em 0.3em 0.3em 
     }
     .redondo {
         
@@ -692,6 +725,7 @@ footer a:hover {
         
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
         
     }
     .slides-bolinha {
@@ -846,7 +880,15 @@ footer a:hover {
         margin: 10px auto;
         width: 30%;
         border-radius: 20px;
+        cursor: pointer;
+        font-family: 'Geologica', sans-serif;
+        transition: transform 0.3s ease-in-out;
     
+    }
+    #formulario #acionar:hover {
+
+        transform: scale(1.05);
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.525);
     }
     #mensagem {
     
@@ -905,6 +947,7 @@ footer a:hover {
     
     }
 }
+
 
 
 

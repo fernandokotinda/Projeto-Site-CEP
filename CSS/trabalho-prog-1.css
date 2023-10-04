@@ -1,50 +1,108 @@
-.tags {
+@media (min-width: 769px) {
+    .tags {
 
-    background-color: #5c9797;
-    font-family: 'Geologica', sans-serif;
-    display: block;
-    
+        background-color: #5c9797;
+        font-family: 'Geologica', sans-serif;
+        display: block;
+        
+    }
+    .tags h1 {
+
+        text-align: center;
+        padding: 20px;
+        font-size: 35px;
+    }
+    .tags ul {
+
+        padding: 0px 80px;
+    }
+    .tags li {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0px
+    }
+    .tags li p {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 3em;
+        padding-left: 30px;
+        color: #3b3b3b;
+    }
+
+    .imagem{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .tags hr {
+
+        border-color: rgba(0, 0, 0, 0.403);
+    }
+    .imagem img {
+
+        width: 700px;
+        height: 400px;
+        margin: 0px 40px 40px 40px;
+        box-shadow: rgba(0, 0, 0, 0.559) 13px 8px 8px;
+        border-radius: 15px;
+
+    }
 }
-.tags h1 {
+@media (max-width: 768px) { 
 
-    text-align: center;
-    padding: 20px;
-    font-size: 35px;
-}
-.tags ul {
+    .tags {
 
-    padding: 0px 80px;
-}
-.tags li {
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 0px
-}
-.tags li p {
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 3em;
-    padding-left: 30px;
-    color: #3b3b3b;
-}
+        background-color: #5c9797;
+        font-family: 'Geologica', sans-serif;
+        display: block;
+        
+    }
+    .tags h1 {
 
-.imagem{
+        text-align: center;
+        padding: 20px;
+        font-size: 35px;
+    }
+    .tags ul {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        padding: 0px 80px;
+    }
+    .tags li {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0px
+    }
+    .tags li p {
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        line-height: 1.5em;
+        padding: 10px 10px 0px 30px;
+        color: #3b3b3b;
+    }
 
-}
-.tags hr {
+    .imagem{
 
-    border-color: rgba(0, 0, 0, 0.403);
-}
-.imagem img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    width: 700px;
-    height: 400px;
-    margin: 0px 40px 40px 40px;
-    box-shadow: rgba(0, 0, 0, 0.559) 13px 8px 8px;
-    border-radius: 15px;
+    }
+    .tags hr {
+
+        border-color: rgba(0, 0, 0, 0.403);
+    }
+    .imagem img {
+
+        width: 40%;
+        height: 40%;
+        padding: 0px;
+        margin: 20px 40px 40px 40px;
+        box-shadow: rgba(0, 0, 0, 0.559) 13px 8px 8px;
+        border-radius: 15px;
+
+    }
 
 }
