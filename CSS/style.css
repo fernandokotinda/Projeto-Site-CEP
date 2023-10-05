@@ -232,8 +232,8 @@ article img {
 }
 .redondo {
     
-    width: 28vw;
-    height: 40vh;
+    width: 400px;
+    height: 350px;
     
 }
 #bolinhas {
@@ -670,7 +670,7 @@ footer a:hover {
     }
     article img {
         
-        width: 100vw;
+        width: 400px;
         height: 100vh;
         padding: 50px 50px 50px 50px;
         flex: 1;
@@ -714,8 +714,8 @@ footer a:hover {
     #slides img {
     
         border-radius: 20px;
-        width: 80%;
-        height: 90%;
+        width: 300px;
+        height: 300px;
         
     }
     #slides img:hover {
@@ -776,7 +776,7 @@ footer a:hover {
     }
     .int-1 img, .int-2 img {
         
-        width: 50%;
+        width: 9em;
         height: 100%;
         border-radius: 10px;
         box-shadow: rgba(245, 245, 245, 0.289) 3px 2px 8px 0px;
@@ -786,7 +786,7 @@ footer a:hover {
         
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: left;
         align-items: center;
         text-align: justify;
         width: 100% ;

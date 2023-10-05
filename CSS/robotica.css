@@ -68,14 +68,11 @@
         box-shadow: rgba(0, 0, 0, 0.57) 0.3em 0.3em 0.3em;
         padding: 0px;
     }
-    article:nth-child(2) .texto {
 
-        margin-left: 60px;
-    }
     article:nth-child(2) .texto p {
 
-        margin-right: 80px;
-        padding-top: 20px;
+        margin-right: 0px;
+        padding-top: 0px;
     }
     .texto h1::after {
 

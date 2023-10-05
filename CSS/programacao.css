@@ -86,20 +86,19 @@
         box-shadow: 4px 4px 0 2px #07070796;
         margin: 40px;
 
-        transition: scale 0.4s ease-in-out, scale 0.4s ease-in-out;
           
     }
 
     button:hover {
         
-        background-color: #9c9c9c;
+        background-color: #d1d1d1;
+        color: black;
         
     }
 
     button:active {
     background-color: #414141;
     box-shadow: 2px 2px 0 2px #07070796;;
-    transform: translateY(4px);
     }
 
 } 
@@ -129,11 +128,8 @@
     .materiais .texto {
     
         word-spacing: normal;
-        width: 540px;
-        height: 114px;
-        padding-left: 60px;
-        margin-left: 44px;
-        margin-right: 120px;
+        padding: 30px 30px 0px 50px;
+        
     }
     .materiais .image {
     
@@ -142,19 +138,20 @@
     }
     .materiais .texto h1 {
         
-        padding-left: 100px;
-        width: 380px;
-        height: 100px;
-    }
-    .materiais .texto p {
-
-        padding-left: 100px;
+        width: 95%;
+        height: 20vh;
+        text-align: left;
+        
 
     }
     article .texto {
 
         margin: auto;
-        padding-right: 0px;
+        padding-left: 50px;
+    }
+    article:nth-child(2) .texto p {
+        margin-right: 0px;
+        padding-top: 0px;
     }
     .botao {
 
@@ -202,8 +199,6 @@
         border: 1px solid rgb(0, 0, 0);
         box-shadow: 4px 4px 0 2px #07070796;
         margin: 40px;
-
-        transition: scale 0.4s ease-in-out, scale 0.4s ease-in-out;
           
     }
 
@@ -220,7 +215,7 @@
     button:active {
     background-color: #414141;
     box-shadow: 2px 2px 0 2px #07070796;
-    transform: translateY(4px);
+
     }
     
 
