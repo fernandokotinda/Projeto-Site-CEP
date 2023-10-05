@@ -76,6 +76,10 @@ header {
     
     
 }
+.menu-list li:nth-child(1), .menu-list li:nth-child(2), .menu-list li:nth-child(3) {
+    border-right: 1px solid rgba(0, 0, 0, 0.678);
+    padding-right: 20px;
+}
 .menu #searchInput {
 
     margin-left: auto;

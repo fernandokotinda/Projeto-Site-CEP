@@ -30,9 +30,19 @@
         margin-left: 44px;
         margin-right: 120px;
     }
+    .menu-list li:nth-child(1), .menu-list li:nth-child(2) {
+        border-right: 1px solid rgba(0, 0, 0, 0.678);
+        padding-right: 20px;
+    }
+    .menu-list li:nth-child(3) {
+        
+        border-right: none;
+        
+    }
     .materiais .image {
 
         width: 20%;
+        margin-right: 108px;
 
     }
     .materiais .texto h1 {
@@ -47,11 +57,17 @@
         
 
     }
-    .buttons {
+    #direcionar {
+
+        margin-top: 142px;
+        
+    }
+    #buttons {
 
         background-color: #2b4a4a;
+
     }
-    .buttons h1 {
+    #buttons h1 {
 
         font-family: 'Geologica', sans-serif;
         text-align: center;
@@ -65,7 +81,7 @@
         justify-content: center;
         align-items: center;
     }
-    button:nth-child(3), button:nth-child(3), button:nth-child(3) {
+    button:nth-child(3){
 
         margin-bottom: 70px;
     }
@@ -85,7 +101,7 @@
         border: 1px solid rgb(0, 0, 0);
         box-shadow: 4px 4px 0 2px #07070796;
         margin: 40px;
-
+        transition: all 0.3s ease;
           
     }
 
@@ -93,6 +109,7 @@
         
         background-color: #d1d1d1;
         color: black;
+        transition: all 0.3s ease;
         
     }
 
@@ -139,8 +156,10 @@
     .materiais .texto h1 {
         
         width: 95%;
-        height: 20vh;
+        height: 50px;
+        margin-right: 90px;
         text-align: left;
+        
         
 
     }
@@ -148,11 +167,27 @@
 
         margin: auto;
         padding-left: 50px;
+        width: 100%;
     }
     article:nth-child(2) .texto p {
-        margin-right: 0px;
-        padding-top: 0px;
+
+        margin-right: 20px;
+        margin-top: 2.7em;
+        
     }
+    .texto p {
+        margin-top: 30px;
+        margin-right: 20px;
+        font-size: 1.1em;
+
+    }
+    .texto { 
+
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+
     .botao {
 
         display: flex;
@@ -161,11 +196,11 @@
         
 
     }
-    .buttons {
+    #buttons {
 
         background-color: #2b4a4a;
     }
-    .buttons h1 {
+    #buttons h1 {
 
         font-family: 'Geologica', sans-serif;
         text-align: center;
@@ -206,10 +241,9 @@
         
         background-color: #9c9c9c;
         color: rgb(6, 6, 6);
+        transition: all 0.3s ease;
         
-        
-        
-        
+
     }
 
     button:active {
