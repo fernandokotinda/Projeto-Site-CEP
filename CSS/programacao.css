@@ -81,7 +81,7 @@
         justify-content: center;
         align-items: center;
     }
-    button:nth-child(3){
+    #psh, #tic, #tom{
 
         margin-bottom: 70px;
     }
@@ -117,6 +117,7 @@
     background-color: #414141;
     box-shadow: 2px 2px 0 2px #07070796;;
     }
+    
 
 } 
 
@@ -242,9 +243,9 @@
         
 
     }
-    .botao-col-3:nth-child(3) {
+    #tom {
 
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
 
     button:active {
