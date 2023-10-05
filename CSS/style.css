@@ -26,6 +26,7 @@
 body {
 
     background-color: var(--fundo-form);
+    overflow-x: hidden;
 
 }
 img {
