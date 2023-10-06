@@ -465,6 +465,10 @@ footer a:hover {
         padding: 0%;
         box-sizing: border-box;
     }
+    html {
+
+        overflow-x: hidden;
+    }
     body {
     
         background-color: var(--fundo-form);
@@ -675,7 +679,7 @@ footer a:hover {
     }
     article img {
         
-        width: 100%;
+        width: 400px;
         height: 100vh;
         padding: 50px 50px 50px 50px;
         flex: 1;
